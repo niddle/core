@@ -16,12 +16,11 @@ script:
   
 directories:
     - $HOME/.composer/cache/files
+    
 addons:
   sonarqube:
-   
- branches:
-    - master
-    - sonaqube
+    token:
+      secure: SONAR_TOKEN # encrypted value of your token
 script:
   # other script steps might be done before running the actual SonarQube analysis
   - sonar-scanner
