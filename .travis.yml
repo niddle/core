@@ -1,4 +1,4 @@
-dist: trusty
+
 
 language: php
 
@@ -23,6 +23,7 @@ addons:
  sonarqube:
     token:
       secure: SONAR_TOKEN # encrypted value of your token
+
 script:
   # other script steps might be done before running the actual SonarQube analysis
   - sonar-scanner
