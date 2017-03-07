@@ -1,8 +1,13 @@
+sudo: required
+dist: trusty
+
 language: php
+
 php:
   - 5.6
 
 before_script:
+  - sudo service mysql {verb} || sudo service mysql-5.6 {verb}
   - cp .env.travis .env
   - mysql -e 'create database homestead_test;'
   - composer self-update
