@@ -39,19 +39,19 @@ public function test_login_logout()
     
     public function test_logout()
   {
-    $user = factory(\App\User::class)->make();
-    $user->save();
-    $this->visit('/login');
-    $this->type($user->email,'email')
-    ->type('secret','password')
-     ->press('Login');;
-     $this->seePageIs('/home');
-     
-   
-    $form = $this->getForm();  
+        $user = factory(\App\User::class)->make();
+        $user->save();
+        $this->visit('/login');
+        $this->type($user->email,'email')
+        ->type('secret','password')
+        ->press('Login');;
+        $this->seePageIs('/home');
+        
+        
+        $form = $this->getForm();  
         $this->visit('/')
-    ->makeRequestUsingForm($form)
-    ->seePageIs('Login');
+        ->makeRequestUsingForm($form)
+        ->seePageIs('/');
 
   }
     
