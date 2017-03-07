@@ -1,6 +1,6 @@
+dist: trusty
 
 language: php
-dist: trusty
 php:
   - 5.6
 
