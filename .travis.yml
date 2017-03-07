@@ -19,7 +19,7 @@ directories:
 addons:
   sonarqube:
     token:
-      secure: ********* # encrypted value of your token
+        secure: "gxZYRZC5NLr1Npg1kS6kZCLFvf8li4+WP3NCgkHNL2kc8FtgEqUaYQmbtP5FUkJt4O1cZoeVX7BlDOj3Z/XODWnfNrE0shZ1oxslnLL4zx4oB9FfbtCKp9THP43pbQP4BUj7GY8YlbghPJUElbHPbuJ3IgQa/MufBefi74LHVaLKDxB7witnkg1E03g2KctV9uqt8jtvLQkE703LoveuS9T2PHPPFqavbjrO4s2WkwwCgFn8/qLGPN/+LSgI6O1PJKJ7x1wdbDQlhh5saFoR/H5mcQRC184MEuufCqAUEplkHjwRaaaEHIwJybn1Oc3Hgm1GFCXfv5ac+NOlqLLrcJCptyE7liTjJq1rF4HMoMxuAwcHHxsMGdjQRXgMab0ugsZ5spgTFpkVUXmsEqWF6F2mvQRc9F/b3nLwpSpWUvMTVYWjGrnpw6QCDDnpXkR5cYTSb03wySkgUcL/GwkZ/Ft9VkqD/28ADfSp/BJ708OqJXWR0IOY/P++/48wVbwIdLKgwxQzVmxWXGdQbzCK3pCt/MRZpebso1HJ6JTz6oq/01mYXtAcBQspX5izuOKzUvAy6S3yO99IvyZV/6dlJq/O9+6UkOL2/hqtSfBbiR3LdwCnyJ0tyvId5bKIKcnAvf+DzrgOg3I2YSUa1zo8//bGVMgk4T2D0pC10E2pFIk="
  branches:
     - master
     - sonaqube
