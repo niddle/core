@@ -1,0 +1,5 @@
+projectKey=niddelCore
+serverUrl=https://sonarqube.com
+dashboardUrl=https://sonarqube.com/dashboard/index/niddelCore
+ceTaskId=AVqvkXBtKjs3TT-aJyMc
+ceTaskUrl=https://sonarqube.com/api/ce/task?id=AVqvkXBtKjs3TT-aJyMc
